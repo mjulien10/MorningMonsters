@@ -11,7 +11,17 @@ public class MarshmallowMonster
 	private int armCount;
 	public MarshmallowMonster() 
 	{
-
+		//Default values are 0 or null BORING :(
+	}
+	
+	
+	public MarshmallowMonster(String name, double legCount, int eyeCount, boolean hasNoses, int armCount)
+	{
+		this.name = name;
+		this.legCount = legCount;
+		this.eyeCount = eyeCount;
+		this.hasNoses = hasNoses;
+		this.armCount = armCount;
 	}
 	
 	public String toString()
