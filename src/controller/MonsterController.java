@@ -12,7 +12,7 @@ public class MonsterController
 	{
 		
 		//Job 1: initialize data members!
-		myMonster = new MarshmallowMonster();
+		myMonster = new MarshmallowMonster("biggie cheese", 1.5, 7, false, 3);
 	}
 	
 	//methods section
