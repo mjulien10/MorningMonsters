@@ -14,7 +14,6 @@ public class MarshmallowMonster
 		//Default values are 0 or null BORING :(
 	}
 	
-	
 	public MarshmallowMonster(String name, double legCount, int eyeCount, boolean hasNoses, int armCount)
 	{
 		this.name = name;
@@ -24,7 +23,61 @@ public class MarshmallowMonster
 		this.armCount = armCount;
 	}
 	
-	public String toString()
+	//Getters
+	public String getName()
+	{
+		return name;
+	}
+
+	public double getLegCount()
+	{
+		return legCount;
+	}
+	
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public boolean getHasNoses()
+	{
+		return hasNoses;
+	}
+	
+	public int getArmCount()
+	{
+		return armCount;
+	}
+	
+	//Setters
+	
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setLegCount(double legCount)
+	{
+		this.legCount = legCount;
+	}
+	
+	public void setEyeCount(int eyeCount)
+	{
+		this.eyeCount = eyeCount;
+	}
+	
+	public void setHasNoses(boolean hasNoses)
+	{
+		this.hasNoses = hasNoses;
+	}
+	
+	public void setArmCount(int armCount)
+	{
+		this.armCount = armCount;
+	}
+	
+	
+public String toString()
 	{
 		String description = " ";
 		

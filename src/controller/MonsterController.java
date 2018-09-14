@@ -19,5 +19,10 @@ public class MonsterController
 	public void start()
 	{
 		System.out.println(myMonster);
+		myMonster.setArmCount(25);
+		System.out.println("My monster has this many arms: " + myMonster.getArmCount());
+		
+		//Make a new monster and customize from user input!
+		MarshmallowMonster userMonster;
 	}
 }
